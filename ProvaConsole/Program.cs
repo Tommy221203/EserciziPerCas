@@ -12,7 +12,7 @@ namespace ProvaConsole
             string s1 = Console.ReadLine();
             a = EserciziPerCas.Class1.ContainsDoubleChar(s1);
             if (a == true)
-                Console.WriteLine("la stringa contiene almeno una") ;
+                Console.WriteLine("la stringa contiene almeno una vocale maiuscola") ;
             res = EserciziPerCas.Class1.Convert(s1);
             Console.WriteLine($"la stringa corretta è {res}");
             Console.WriteLine("Inserisci il secondo valore:");
